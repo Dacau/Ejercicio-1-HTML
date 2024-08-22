@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <h1>Formularios</h1>
+
+    <!-- FORMULARIOS
+    El for y el id deben ser iguales -->
+
+    <form action="/datos" method="get">
+        
+        <label for="Texto">Campo de Texto</label>
+        <input type="text" id="texto" name ="texto" placeholder="Ingrese Texto">
+        <br><br>
+
+        <label for="clave">Campo de Contrasena</label>
+        <input type="password" id="clave" name ="clave" placeholder="Ingrese Contrasena">
+        <br><br>
+
+        <label for="telefono">Campo de Telefono</label>
+        <input type="tel" id="telefono" name ="telefono" minlength="1" maxlength="10" placeholder="Ingrese Telefono">
+        <br><br>
+
+    </form>
+    
+</body>
+</html>
