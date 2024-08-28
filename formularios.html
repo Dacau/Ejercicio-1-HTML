@@ -10,22 +10,115 @@
     <h1>Formularios</h1>
 
     <!-- FORMULARIOS
-    El for y el id deben ser iguales -->
+    El for y el id deben ser iguales para que me asocie el label con el input
+    El name es un nombre que le debo dar al input
+    El placeholder me muestra una palabra en la cajita del input
+    Action es donde nos va a direccionar
+    Metodo "Get" 
+    Metodo "Post" 
+    Label -->
 
     <form action="/datos" method="get">
         
+        <!-- Campo de Texto
+        Puedo escribir letras y numeros -->
+
         <label for="Texto">Campo de Texto</label>
-        <input type="text" id="texto" name ="texto" placeholder="Ingrese Texto">
+        <input type="text" id="texto" name ="texto1" placeholder="Ingrese Texto">
         <br><br>
+
+        <!-- Campo de Clave
+        Me sale con puntos para que no se vea lo que escribo-->
 
         <label for="clave">Campo de Contrasena</label>
         <input type="password" id="clave" name ="clave" placeholder="Ingrese Contrasena">
         <br><br>
 
+        <!-- Campo de Email
+        Me muestra correos historicos-->
+
+        <label for="correo">Campo de Email</label>
+        <input type="email" id="correo" name ="correo" placeholder="Ingrese Correo">
+        <br><br>
+
+        <!-- Campo de Telefono
+        Lo uso para colocar el minimo y maximo par ese campo minlength="1" maxlength="10" -->
+
         <label for="telefono">Campo de Telefono</label>
         <input type="tel" id="telefono" name ="telefono" minlength="1" maxlength="10" placeholder="Ingrese Telefono">
         <br><br>
 
+        <!-- Campo URL-->
+
+        <label for="rutas">Campo para URL</label>
+        <input type="url" id="rutas" name ="rutas" placeholder="Ingrese URL">
+        <br><br>
+
+        <!-- Campo Numeros
+         Me sale en picklist-->
+
+        <label for="numeros">Campo para numeros</label>
+        <input type="number" id="numeros" name ="rutas" placeholder="Ingrese Numero">
+        <br><br>
+
+        <!-- Campo Rango
+         Es visual-->
+
+         <label for="rango">Campo para Rango</label>
+         <input type="range" id="rango" name ="rango">
+         <br><br>
+
+        <!-- Campo Fecha
+         Es visual, me muestra el calendario-->
+
+         <label for="fecha">Campo para Fecha</label>
+         <input type="date" id="fecha" name ="fecha">
+         <br><br>
+
+        <!-- Campo Hora
+         Es visual, me muestra la hora-->
+
+         <label for="hora">Campo para Hora</label>
+         <input type="time" id="hora" name ="hora">
+         <br><br>
+
+         <!-- Campo Fecha y Hora
+         Es visual, me muestra el calendario y hora-->
+
+         <label for="fechahora">Campo para Fecha y Hora</label>
+         <input type="datetime-local" id="fechahora" name ="fechahora">
+         <br><br>
+
+         <!-- Campo Mes
+         Es visual, me muestra el calendario con los meses-->
+
+         <label for="mes">Campo para Mes</label>
+         <input type="month" id="mes" name ="mes">
+         <br><br>
+
+        <!-- Campo Semana
+         Es visual, me muestra el calendario con las semanas-->
+
+         <label for="semana">Campo Semana</label>
+         <input type="week" id="semana" name ="semana">
+         <br><br>
+
+        <!-- Campo Colores
+         Es visual, me muestra los colores
+         RGB Red, Green, Blue-->
+
+         <label for="colores">Campo Semana</label>
+         <input type="color" id="colores" name ="colores">
+         <br><br>
+
+         <!--Campo Para CheckBox-->
+        <label for="seleccion">Canpo de CheckBox</label>
+        <input type="checkbox" id="seleccion" name="seleccion">
+        <br><br>
+        <!--Campo Archivo-->
+
+        <label for="archivo">Canpo de Archivo</label>
+        <input type="file" id="archivo" name="archivo">
     </form>
     
 </body>
