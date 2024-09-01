@@ -1,0 +1,25 @@
+h1{
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p{
+    color: darkgoldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#intro{
+    color: rgb(184, 11, 109);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#logo {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.tipos {
+    color:red;
+    font-weight: bold;
+}
