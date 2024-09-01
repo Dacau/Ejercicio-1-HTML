@@ -14,11 +14,11 @@
     El name es un nombre que le debo dar al input
     El placeholder me muestra una palabra en la cajita del input
     Action es donde nos va a direccionar
-    Metodo "Get" 
-    Metodo "Post" 
+    Metodo "Get: Envia la informacion y la expone en la URL" 
+    Metodo "Post: Envia la informacion y no la expone en la URL" 
     Label -->
 
-    <form action="/datos" method="get">
+    <form action="/datos" method="post">
         
         <!-- Campo de Texto
         Puedo escribir letras y numeros -->
@@ -115,10 +115,37 @@
         <label for="seleccion">Canpo de CheckBox</label>
         <input type="checkbox" id="seleccion" name="seleccion">
         <br><br>
+
         <!--Campo Archivo-->
 
         <label for="archivo">Canpo de Archivo</label>
         <input type="file" id="archivo" name="archivo">
+        <br><br>
+
+        <!--ETIQUETAS PARA BOTONES
+        Campo Para Un Boton-->
+        
+        <input type="submit" value="Enviar">
+        <br><br>
+
+        <!--Campo Para Reiniciar, es decir, para que se me borre la informacion-->
+
+        <input type="reset" value="Reinicar">
+        <br><br>
+
+        <!--Boton que contiene imagen, hace las acciones de enviar-->
+
+        <input type="image" src="https://avatars.githubusercontent.com/u/9919?s=280&v=4" alt="Enviar" width="40" height="40">
+        <br><br>
+
+        <!--Tiene etiqueta de apertura y cierre, por lo cual se puede personailizar colocando una imagen por ejemplo.
+        En cambio en el input submit no puedo personalizar-->
+        
+        <button type="submit">Mi Boton
+            <img src="https://cdn-icons-png.flaticon.com/256/174/174854.png" alt="Imagen">
+        </button>
+        <br><br>
+        
     </form>
     
 </body>

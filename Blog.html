@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="dacau">
+    <meta name="desrption" content="Mi pagina web">
+    <meta name="author" content="programacion, web">
+    <title>Blog</title>
+</head>
+<body>
+    <!--SECTION es el cuadro completo y el ARTICLE son los cuadrados pequenos.
+    La etiqueta de FIELDSET es para encerrar el "article" en cuadrado y la LEGEND para
+    colocarle el titulo. Para hacer el border mas grueso en el FIELSET le agrego BORDER
+    
+    Se coloca ID para poder identificar etiquetas y poder referenciarlas
+    
+    Para colocar estilo utilizo la etiqueta de STYLE, para colocar color a las letras uso 
+    "color" y para centrar el texto utilizo TEXT-ALIGN
+    
+    Utilizo el DIV para centro con TEXT-ALIGN
+    
+    El FONT-FAMILY es para color el tipo de letra-->
+
+    <head>
+        <h1 style="color:blueviolet; text-align: center;font-family: ALGERIAN">PASATIEMPOS DANIELA</h1>
+    </head>
+
+    <section>
+        <fieldset id="ps1" style="color: deeppink; border: 3px solid;">
+        <legend>PASATIEMPOS</legend>
+        <article>
+        <DIV style="text-align: center;">
+            <p>Viajar</p><img src="https://www.lavanguardia.com/files/og_thumbnail/uploads/2018/06/15/5fa43d71a111f.jpeg" alt="Viajar" width="200" height="200">
+            <p>Leer</p><img src="https://actividadesinfantil.com/wp-content/uploads/2023/09/Fotos-para-articulos-450-%C3%97-350-px-7-1.jpg" alt="Leer" width="200" height="200">
+            <p>Caminar</p> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcRrqOo4-QxlTOIcUBkKhSyvqxu0rdZWPdBA&s" alt="Caminar" width="200" height="200">
+        </DIV>
+        </article>
+        </fieldset>
+        <br><br>
+
+        <FIeldset id="ps2" style="color: fuchsia;">
+        <LEgend>COMIDAS FAVORITAS</LEgend>
+        <article>
+            <p>Paella</p><img src="https://www.recetasnestle.com.co/sites/default/files/srh_recipes/97c7c1ef67cd0191df5058b3bf724a28.jpg" alt="Paella" width="200" height="200">
+            <p>Pasta</p><img src="https://alimentosdoria.com/wp-content/uploads/2023/06/Pasta-con-crema-de-leche.jpg" alt="Pasta" width="200" height="200">
+            <p>Hamburguesa</p> <img src="https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/4e4293857c03d819e4ae51de1e86d66a.jpg" alt="Hamburguesa" width="200" height="200">
+        </article>
+        </FIeldset>
+        <br><br>
+
+        <FIeldset id="ps3" style="color: deeppink;">
+        <LEgend>DESTINOS QUE HA VISITADO</LEgend>
+        <article>
+            <p>Bangkok</p><img src="https://viajes.nationalgeographic.com.es/medio/2023/06/28/gran-palacio-real_491caafe_1385269772_230628145613_1280x854.jpg" alt="Bangkok" width="200" height="200">
+            <p>Singapur</p><img src="https://www.tic-col.net/web/wp-content/uploads/2021/07/Marina-bay-de-Singapur-1-1024x576.jpg" alt="Singapur" width="200" height="200">
+            <p>Paris</p> <img src="https://t4.ftcdn.net/jpg/02/96/15/35/360_F_296153501_B34baBHDkFXbl5RmzxpiOumF4LHGCvAE.jpg" alt="Paris" width="200" height="200">
+        </article>
+        </FIeldset>
+        <br><br>
+
+        <FIeldset style="color: fuchsia;">
+        <LEGEnd>PAISES QUE LE GUSTARIA VISITAR</LEGEnd>
+        <article>
+            <p>China</p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW9-6iUvakabgg4LSHTEZpHzVhBqZmV8-Pcg&s" alt="China" width="200" height="200">
+            <p>Egipto</p><img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/imagen%20egipto%201%20comp_2.jpg?w=1900&h=1958" alt="Egipto" width="200" height="200">
+            <p>Filipinas</p> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToIIkV4QRKGYHywqPIUvzaHXoWJhKnd6S7jA&s" alt="Filipinas" width="200" height="200">
+        </article>
+        </FIeldset>
+        <br><br>
+  
+        <!--En la etiqueta de a href puede direccionar directo al correo o telefono con
+        mailto y tel. Adiconal me puede ir a una seccion de la pagina utilizando el id
+        
+        Para colocar color de fondo en una franja utilizo STYLE con BACKGROUND-->
+
+        <footer>
+            <a href="#ps1">Pasatiempo</a><br>
+            <a href="#ps2">Comidas Favoritas</a><br>
+            <a href="#ps3">Destino que ha visitado</a><br>
+            <a href="mailto:danielacasadiego18@hotmail.com">Contactar por Correo</a><br>
+            <a href="tel:3175113505">Contactar por Telefono</a>
+            <p style="color: gold; text-align: center; background-color: red;">Todos los derechos reservados</p>
+        </footer>
+
+    </section>
+
+</body>
+</html>
